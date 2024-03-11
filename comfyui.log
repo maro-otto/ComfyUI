@@ -1,0 +1,495 @@
+** ComfyUI startup time: 2024-03-06 09:45:18.615587
+[2024-03-06 09:45] ** Platform: Linux
+[2024-03-06 09:45] ** Python version: 3.10.12 (main, Jun  7 2023, 19:32:10) [GCC 10.2.1 20210110]
+[2024-03-06 09:45] ** Python executable: /workspaces/ComfyUI/.venv/bin/python
+[2024-03-06 09:45] ** Log path: /workspaces/ComfyUI/comfyui.log
+[2024-03-06 09:45] 
+Prestartup times for custom nodes:
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/rgthree-comfy
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-06 09:45] 
+[2024-03-06 09:45] Total VRAM 14910 MB, total RAM 60391 MB
+[2024-03-06 09:45] Set vram state to: NORMAL_VRAM
+[2024-03-06 09:45] Device: cuda:0 Tesla T4 : cudaMallocAsync
+[2024-03-06 09:45] VAE dtype: torch.float32
+[2024-03-06 09:45] Using pytorch cross attention
+[2024-03-06 09:45] ### Loading: ComfyUI-Impact-Pack (V4.72.1)
+[2024-03-06 09:45] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-03-06 09:45] [Impact Pack] Wildcards loading done.
+[2024-03-06 09:45] [92m[Allor][0m: 0 nodes were overridden.
+[2024-03-06 09:45] [92m[Allor][0m: 12 modules were enabled.
+[2024-03-06 09:45] [92m[Allor][0m: 98 nodes were loaded.
+[2024-03-06 09:45] ------------------------------------------
+[2024-03-06 09:45] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-03-06 09:45] ------------------------------------------
+[2024-03-06 09:45] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-03-06 09:45] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-03-06 09:45] ------------------------------------------
+[2024-03-06 09:45] 
+[2024-03-06 09:45] [92m[rgthree] Loaded 33 magnificent nodes.[0m
+[2024-03-06 09:45] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-03-06 09:45] 
+[2024-03-06 09:45] ### Loading: ComfyUI-Manager (V2.7)
+[2024-03-06 09:45] ### ComfyUI Revision: 1951 [d0e2354c] | Released on '2024-02-02'
+[2024-03-06 09:45] [0m[1;34m[SD Prompt Reader] [36mNode version: 1.3.0[0m
+[2024-03-06 09:45] [0m[1;34m[SD Prompt Reader] [36mCore version: 1.3.4.post1[0m
+[2024-03-06 09:45] Total VRAM 14910 MB, total RAM 60391 MB
+[2024-03-06 09:45] Set vram state to: NORMAL_VRAM
+[2024-03-06 09:45] Device: cuda:0 Tesla T4 : cudaMallocAsync
+[2024-03-06 09:45] VAE dtype: torch.float32
+[2024-03-06 09:45] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-06 09:45] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-06 09:45] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-06 09:45] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-06 09:45] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-03-06 09:45] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `/workspaces/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-03-06 09:45] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m211[0m [32mnodes successfully.[0m
+[2024-03-06 09:45] 
+	[3m[93m"Art is not freedom from discipline, but disciplined freedom."[0m[3m - John F. Kennedy[0m
+[2024-03-06 09:45] 
+[2024-03-06 09:45] /workspaces/ComfyUI/custom_nodes/failfast-comfyui-extensions/extensions
+[2024-03-06 09:45] /workspaces/ComfyUI/web/extensions/failfast-comfyui-extensions
+[36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /workspaces/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-03-06 09:45] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-03-06 09:45] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-03-06 09:45] /workspaces/ComfyUI/custom_nodes/comfyui_controlnet_aux/node_wrappers/dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-03-06 09:45] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-03-06 09:45] ### Loading: ComfyUI-Maro-Pack (V0.1)
+[2024-03-06 09:45] Loaded: <module 'comfyui_maro_pack.src.nodes.simple_custom_node' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/simple_custom_node.py'>
+[2024-03-06 09:45] Loaded: <module 'comfyui_maro_pack.src.nodes.load_image_otto_id' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/load_image_otto_id.py'>
+[2024-03-06 09:45] ### Loading: ComfyUI-Maro-Pack (V0.1)
+[2024-03-06 09:45] Loaded: <module 'custom_nodes.comfyui_maro_pack.src.nodes.simple_custom_node' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/simple_custom_node.py'>
+[2024-03-06 09:45] Loaded: <module 'custom_nodes.comfyui_maro_pack.src.nodes.load_image_otto_id' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/load_image_otto_id.py'>
+[2024-03-06 09:45] Loaded: <module 'custom_nodes.comfyui_maro_pack.src.nodes.beit_image_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/beit_image_processor.py'>
+[2024-03-06 09:45] Loaded: <module 'custom_nodes.comfyui_maro_pack.src.nodes.vector_distance_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/vector_distance_processor.py'>
+[2024-03-06 09:45] Loaded: <module 'custom_nodes.comfyui_maro_pack.src.nodes.argmin_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/argmin_processor.py'>
+[2024-03-06 09:45] Loaded: <module 'comfyui_maro_pack.src.nodes.beit_image_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/beit_image_processor.py'>
+[2024-03-06 09:45] Loaded: <module 'comfyui_maro_pack.src.nodes.vector_distance_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/vector_distance_processor.py'>
+[2024-03-06 09:45] Loaded: <module 'comfyui_maro_pack.src.nodes.argmin_processor' from '/workspaces/ComfyUI/custom_nodes/comfyui_maro_pack/src/nodes/argmin_processor.py'>
+[2024-03-06 09:45] ### Loading: ComfyUI-Inspire-Pack (V0.61.5)
+[2024-03-06 09:45] [34mOpenPose Editor: [92mLoaded[0m
+[2024-03-06 09:45] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-03-06 09:45] Failed to auto update `Quality of Life Suit` 
+[2024-03-06 09:45] [33mQualityOfLifeSuit_Omar92_DIR:[0m /workspaces/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-03-06 09:45] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.4.1-b8 in ComfyUI[0m
+[2024-03-06 09:45] Traceback (most recent call last):
+  File "/workspaces/ComfyUI/nodes.py", line 1893, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/ComfyUI/custom_nodes/comfyui-reactor-node/__init__.py", line 22, in <module>
+    from .nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "/workspaces/ComfyUI/custom_nodes/comfyui-reactor-node/nodes.py", line 15, in <module>
+    from scripts.reactor_faceswap import FaceSwapScript, get_models, get_current_faces_model, analyze_faces
+  File "/workspaces/ComfyUI/custom_nodes/comfyui-reactor-node/scripts/reactor_faceswap.py", line 12, in <module>
+    from scripts.reactor_logger import logger
+  File "/workspaces/ComfyUI/custom_nodes/comfyui-reactor-node/scripts/reactor_logger.py", line 6, in <module>
+    from reactor_utils import addLoggingLevel
+  File "/workspaces/ComfyUI/custom_nodes/comfyui-reactor-node/reactor_utils.py", line 8, in <module>
+    from insightface.app.common import Face
+ModuleNotFoundError: No module named 'insightface'
+[2024-03-06 09:45] 
+[2024-03-06 09:45] Cannot import /workspaces/ComfyUI/custom_nodes/comfyui-reactor-node module for custom nodes: No module named 'insightface'
+[2024-03-06 09:45] Traceback (most recent call last):
+  File "/workspaces/ComfyUI/nodes.py", line 1893, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/workspaces/ComfyUI/custom_nodes/IPAdapter-ComfyUI/__init__.py'
+[2024-03-06 09:45] 
+[2024-03-06 09:45] Cannot import /workspaces/ComfyUI/custom_nodes/IPAdapter-ComfyUI module for custom nodes: [Errno 2] No such file or directory: '/workspaces/ComfyUI/custom_nodes/IPAdapter-ComfyUI/__init__.py'
+[2024-03-06 09:45] /workspaces/ComfyUI/custom_nodes/NodeGPT/AutoUpdate.json
+[2024-03-06 09:45] Traceback (most recent call last):
+  File "/workspaces/ComfyUI/custom_nodes/NodeGPT/API_Nodes/llama-cpp.py", line 9, in <module>
+    from llama_cpp import Llama
+ModuleNotFoundError: No module named 'llama_cpp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/ComfyUI/nodes.py", line 1893, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/ComfyUI/custom_nodes/NodeGPT/__init__.py", line 127, in <module>
+    imported_module = importlib.import_module(".{}".format(module_name), __name__)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/ComfyUI/custom_nodes/NodeGPT/API_Nodes/llama-cpp.py", line 21, in <module>
+    from llama_cpp import Llama
+ModuleNotFoundError: No module named 'llama_cpp'
+[2024-03-06 09:45] 
+[2024-03-06 09:45] Cannot import /workspaces/ComfyUI/custom_nodes/NodeGPT module for custom nodes: No module named 'llama_cpp'
+[2024-03-06 09:45] 
+Import times for custom nodes:
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Image-Selector
+[2024-03-06 09:45]    0.0 seconds (IMPORT FAILED): /workspaces/ComfyUI/custom_nodes/IPAdapter-ComfyUI
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/cg_custom_core
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/stability-ComfyUI-nodes
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-OpenPose-Editor
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-post-processing-nodes
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_experiments
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/failfast-comfyui-extensions
+[2024-03-06 09:45]    0.0 seconds (IMPORT FAILED): /workspaces/ComfyUI/custom_nodes/NodeGPT
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/cg-image-picker
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-QualityOfLifeSuit_Omar92
+[2024-03-06 09:45]    0.0 seconds (IMPORT FAILED): /workspaces/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/rgthree-comfy
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/wlsh_nodes
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/comfyui_maro_pack
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/facerestore_cf
+[2024-03-06 09:45]    0.0 seconds: /workspaces/ComfyUI/custom_nodes/comfyui-prompt-reader-node
+[2024-03-06 09:45]    0.1 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-03-06 09:45]    0.3 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-06 09:45]    0.3 seconds: /workspaces/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-03-06 09:45]    0.3 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-03-06 09:45]    0.6 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Allor
+[2024-03-06 09:45]    1.0 seconds: /workspaces/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-03-06 09:45]    1.0 seconds: /workspaces/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-03-06 09:45]    2.7 seconds: /workspaces/ComfyUI/custom_nodes/comfyui_segment_anything
+[2024-03-06 09:45] 
+[2024-03-06 09:45] Starting server
+[2024-03-06 09:45] 
+[2024-03-06 09:45] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-06 09:45] FETCH DATA from: /workspaces/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-06 09:45] Error: OpenAI API key is invalid OpenAI features wont work for you
+[2024-03-06 09:45] [33mQualityOfLifeSuit_Omar92:[0m:NSP ready
+[2024-03-06 09:46] got prompt
+[2024-03-06 09:46] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:46] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:46] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:46] ERROR:root:Output will be ignored
+[2024-03-06 09:46] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:46] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-03-06 09:46] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-03-06 09:46] Loads SAM model: /workspaces/ComfyUI/models/sams/sam_vit_b_01ec64.pth (device:Prefer GPU)
+[2024-03-06 09:46] final text_encoder_type: bert-base-uncased
+[2024-03-06 09:46] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 09:46] model_type EPS
+[2024-03-06 09:46] adm 0
+[2024-03-06 09:46] Using pytorch attention in VAE
+[2024-03-06 09:46] Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+[2024-03-06 09:46] Using pytorch attention in VAE
+[2024-03-06 09:46] missing {'cond_stage_model.clip_l.logit_scale', 'cond_stage_model.clip_l.text_projection'}
+[2024-03-06 09:46] left over keys: dict_keys(['cond_stage_model.clip_l.transformer.text_model.embeddings.position_ids'])
+[2024-03-06 09:46] Requested to load SD1ClipModel
+[2024-03-06 09:46] Loading 1 new model
+[2024-03-06 09:46] Requested to load AutoencoderKL
+[2024-03-06 09:46] Loading 1 new model
+[2024-03-06 09:46] Requested to load BaseModel
+[2024-03-06 09:46] Loading 1 new model
+[2024-03-06 09:48] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.59s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.68s/it]
+[2024-03-06 09:48] Prompt executed in 94.99 seconds
+[2024-03-06 09:53] got prompt
+[2024-03-06 09:53] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:53] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:53] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:53] ERROR:root:Output will be ignored
+[2024-03-06 09:53] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:53] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.05it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.07it/s]
+[2024-03-06 09:54] Prompt executed in 21.99 seconds
+[2024-03-06 09:54] got prompt
+[2024-03-06 09:54] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:54] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:54] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:54] ERROR:root:Output will be ignored
+[2024-03-06 09:54] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:54] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.09it/s]
+[2024-03-06 09:54] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 09:54] Prompt executed in 21.56 seconds
+[2024-03-06 09:56] got prompt
+[2024-03-06 09:56] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:56] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:56] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:56] ERROR:root:Output will be ignored
+[2024-03-06 09:56] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:56] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 09:57] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.06it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]
+[2024-03-06 09:57] Prompt executed in 25.59 seconds
+[2024-03-06 09:57] got prompt
+[2024-03-06 09:57] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:57] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:57] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:57] ERROR:root:Output will be ignored
+[2024-03-06 09:57] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:58] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.09it/s]
+[2024-03-06 09:58] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 09:58] Prompt executed in 21.63 seconds
+[2024-03-06 09:58] got prompt
+[2024-03-06 09:58] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 09:58] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 09:58] ERROR:root:  - Required input is missing: image
+[2024-03-06 09:58] ERROR:root:Output will be ignored
+[2024-03-06 09:58] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 09:58] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.07it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]
+[2024-03-06 09:58] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 09:58] Prompt executed in 21.81 seconds
+[2024-03-06 10:00] got prompt
+[2024-03-06 10:00] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:00] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:00] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:00] ERROR:root:Output will be ignored
+[2024-03-06 10:00] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:01] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.58s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.68s/it]
+[2024-03-06 10:01] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:01] Prompt executed in 85.75 seconds
+[2024-03-06 10:03] got prompt
+[2024-03-06 10:03] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:03] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:03] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:03] ERROR:root:Output will be ignored
+[2024-03-06 10:03] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:04] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.59s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.69s/it]
+[2024-03-06 10:04] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:04] Prompt executed in 85.99 seconds
+[2024-03-06 10:05] got prompt
+[2024-03-06 10:05] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:05] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:05] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:05] ERROR:root:Output will be ignored
+[2024-03-06 10:05] ERROR:root:Failed to validate prompt for output 116:
+[2024-03-06 10:05] ERROR:root:* FaceDetailer 113:
+[2024-03-06 10:05] ERROR:root:  - Required input is missing: vae
+[2024-03-06 10:05] ERROR:root:Output will be ignored
+[2024-03-06 10:05] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:05] 
+[2024-03-06 10:05] Prompt executed in 8.29 seconds
+[2024-03-06 10:05] got prompt
+[2024-03-06 10:05] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:05] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:05] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:05] ERROR:root:Output will be ignored
+[2024-03-06 10:05] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:06] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.05it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.06it/s]
+[2024-03-06 10:06] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:06] 
+[2024-03-06 10:06] 0: 640x640 1 face, 34.9ms
+[2024-03-06 10:06] Speed: 3.5ms preprocess, 34.9ms inference, 1.7ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:06] ERROR:root:!!! Exception during processing !!!
+[2024-03-06 10:06] ERROR:root:Traceback (most recent call last):
+  File "/workspaces/ComfyUI/execution.py", line 152, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+  File "/workspaces/ComfyUI/execution.py", line 82, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+  File "/workspaces/ComfyUI/execution.py", line 75, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+  File "/workspaces/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact/impact_pack.py", line 512, in doit
+    enhanced_img, cropped_enhanced, cropped_enhanced_alpha, mask, cnet_pil_list = FaceDetailer.enhance_face(
+  File "/workspaces/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/modules/impact/impact_pack.py", line 457, in enhance_face
+    segm_segs = segm_detector.detect(image, bbox_threshold, bbox_dilation, bbox_crop_factor, drop_size)
+AttributeError: 'NO_SEGM_DETECTOR' object has no attribute 'detect'
+
+[2024-03-06 10:06] Prompt executed in 24.07 seconds
+[2024-03-06 10:06] got prompt
+[2024-03-06 10:06] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:06] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:06] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:06] ERROR:root:Output will be ignored
+[2024-03-06 10:06] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:06] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.09it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.10it/s]
+[2024-03-06 10:06] 
+[2024-03-06 10:06] 0: 640x640 1 face, 17.3ms
+[2024-03-06 10:06] Speed: 4.4ms preprocess, 17.3ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:06] Detailer: segment upscale for ((116.95587, 141.19756)) | crop region (350, 423) x 2.4222540188799417 -> (847, 1024)
+[2024-03-06 10:07] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.45it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.49it/s]
+[2024-03-06 10:07] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:07] Prompt executed in 38.94 seconds
+[2024-03-06 10:07] got prompt
+[2024-03-06 10:07] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:07] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:07] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:07] ERROR:root:Output will be ignored
+[2024-03-06 10:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:08] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.59s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.65s/it]
+[2024-03-06 10:08] [Impact Pack] WARN: FaceDetailer is not a node designed for video detailing. If you intend to perform video detailing, please use Detailer For AnimateDiff.
+[2024-03-06 10:08] 
+[2024-03-06 10:08] 0: 640x640 1 face, 17.1ms
+[2024-03-06 10:08] Speed: 3.1ms preprocess, 17.1ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:08] Detailer: segment upscale for ((124.32861, 147.96437)) | crop region (372, 443) x 2.311926345072303 -> (860, 1024)
+[2024-03-06 10:08] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.45it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.51it/s]
+[2024-03-06 10:08] 
+[2024-03-06 10:08] 0: 640x640 1 face, 17.4ms
+[2024-03-06 10:08] Speed: 3.0ms preprocess, 17.4ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:08] Detailer: segment upscale for ((117.443054, 145.34282)) | crop region (352, 436) x 2.349573199650444 -> (827, 1024)
+[2024-03-06 10:09] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.52it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.58it/s]
+[2024-03-06 10:09] 
+[2024-03-06 10:09] 0: 640x640 1 face, 17.4ms
+[2024-03-06 10:09] Speed: 3.0ms preprocess, 17.4ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:09] Detailer: segment upscale for ((125.43906, 155.11046)) | crop region (376, 465) x 2.2028935052643583 -> (828, 1024)
+[2024-03-06 10:09] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.52it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.58it/s]
+[2024-03-06 10:09] 
+[2024-03-06 10:09] 0: 640x640 1 face, 17.2ms
+[2024-03-06 10:09] Speed: 3.1ms preprocess, 17.2ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:09] Detailer: segment upscale for ((116.92563, 146.66722)) | crop region (350, 440) x 2.3273067027446444 -> (814, 1024)
+[2024-03-06 10:09] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.55it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.61it/s]
+[2024-03-06 10:09] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:09] Prompt executed in 150.43 seconds
+[2024-03-06 10:11] got prompt
+[2024-03-06 10:11] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:11] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:11] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:11] ERROR:root:Output will be ignored
+[2024-03-06 10:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:12] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.57s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [01:13<00:00,  3.66s/it]
+[2024-03-06 10:13] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:13] [Impact Pack] WARN: FaceDetailer is not a node designed for video detailing. If you intend to perform video detailing, please use Detailer For AnimateDiff.
+[2024-03-06 10:13] 
+[2024-03-06 10:13] 0: 640x640 1 face, 17.1ms
+[2024-03-06 10:13] Speed: 3.3ms preprocess, 17.1ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:13] Detailer: segment upscale for ((118.79709, 154.99376)) | crop region (356, 464) x 2.2081254876977248 -> (786, 1024)
+[2024-03-06 10:13] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.59it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.67it/s]
+[2024-03-06 10:13] 
+[2024-03-06 10:13] 0: 640x640 1 face, 17.4ms
+[2024-03-06 10:13] Speed: 3.1ms preprocess, 17.4ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:13] Detailer: segment upscale for ((113.68002, 148.47452)) | crop region (341, 445) x 2.301378475601125 -> (784, 1024)
+[2024-03-06 10:13] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.59it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.66it/s]
+[2024-03-06 10:13] 
+[2024-03-06 10:13] 0: 640x640 1 face, 17.3ms
+[2024-03-06 10:13] Speed: 3.1ms preprocess, 17.3ms inference, 1.7ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:13] Detailer: segment upscale for ((118.881256, 156.7499)) | crop region (356, 470) x 2.1789437764434028 -> (775, 1024)
+[2024-03-06 10:13] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.70it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.77it/s]
+[2024-03-06 10:13] 
+[2024-03-06 10:13] 0: 640x640 1 face, 17.5ms
+[2024-03-06 10:13] Speed: 3.0ms preprocess, 17.5ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:13] Detailer: segment upscale for ((113.37775, 153.06032)) | crop region (340, 459) x 2.231784954833909 -> (758, 1024)
+[2024-03-06 10:14] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.74it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.82it/s]
+[2024-03-06 10:14] Prompt executed in 146.45 seconds
+[2024-03-06 10:16] got prompt
+[2024-03-06 10:16] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:16] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:16] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:16] ERROR:root:Output will be ignored
+[2024-03-06 10:16] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:17] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.09it/s]
+[2024-03-06 10:17] 
+[2024-03-06 10:17] 0: 640x640 1 face, 19.5ms
+[2024-03-06 10:17] Speed: 3.9ms preprocess, 19.5ms inference, 1.7ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:17] Detailer: segment upscale for ((135.1672, 150.57582)) | crop region (405, 451) x 2.2709664338543156 -> (919, 1024)
+[2024-03-06 10:17] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:15<00:00,  1.26it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:15<00:00,  1.29it/s]
+[2024-03-06 10:17] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:17] Prompt executed in 41.06 seconds
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] 
+[2024-03-06 10:18] Prompt executed in 4.65 seconds
+[2024-03-06 10:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:18] 
+[2024-03-06 10:18] Prompt executed in 2.79 seconds
+[2024-03-06 10:18] got prompt
+[2024-03-06 10:18] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:18] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:18] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:18] ERROR:root:Output will be ignored
+[2024-03-06 10:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:18] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.07it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]
+[2024-03-06 10:18] 
+[2024-03-06 10:18] 0: 640x640 1 face, 17.3ms
+[2024-03-06 10:18] Speed: 3.0ms preprocess, 17.3ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:18] Detailer: segment upscale for ((115.61093, 147.47226)) | crop region (346, 442) x 2.3168943229779075 -> (801, 1024)
+[2024-03-06 10:19] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.54it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.60it/s]
+[2024-03-06 10:19] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:19] Prompt executed in 38.11 seconds
+[2024-03-06 10:19] got prompt
+[2024-03-06 10:19] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:19] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:19] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:19] ERROR:root:Output will be ignored
+[2024-03-06 10:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:19] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:17<00:00,  1.11it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:17<00:00,  1.11it/s]
+[2024-03-06 10:19] 
+[2024-03-06 10:19] 0: 640x640 1 face, 17.3ms
+[2024-03-06 10:19] Speed: 3.9ms preprocess, 17.3ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:19] Detailer: segment upscale for ((121.22168, 146.09944)) | crop region (363, 438) x 2.3386994983211244 -> (848, 1024)
+[2024-03-06 10:19] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.44it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:13<00:00,  1.50it/s]
+[2024-03-06 10:19] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:19] Prompt executed in 38.11 seconds
+[2024-03-06 10:24] got prompt
+[2024-03-06 10:24] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:24] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:24] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:24] ERROR:root:Output will be ignored
+[2024-03-06 10:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:24] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:24] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.05it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.07it/s]
+[2024-03-06 10:24] 
+[2024-03-06 10:24] 0: 640x640 1 face, 17.5ms
+[2024-03-06 10:24] Speed: 3.1ms preprocess, 17.5ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:24] Detailer: segment upscale for ((183.33243, 244.7331)) | crop region (549, 734) x 1.3954620281342798 -> (766, 1024)
+[2024-03-06 10:24] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.70it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.76it/s]
+[2024-03-06 10:25] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:25] Prompt executed in 40.66 seconds
+[2024-03-06 10:26] got prompt
+[2024-03-06 10:26] ERROR:root:Failed to validate prompt for output 34:
+[2024-03-06 10:26] ERROR:root:* GroundingDinoSAMSegment (segment anything) 4:
+[2024-03-06 10:26] ERROR:root:  - Required input is missing: image
+[2024-03-06 10:26] ERROR:root:Output will be ignored
+[2024-03-06 10:26] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-03-06 10:26] /workspaces/ComfyUI/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py:993: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+[2024-03-06 10:26] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.08it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:18<00:00,  1.10it/s]
+[2024-03-06 10:26] 
+[2024-03-06 10:26] 0: 640x640 1 face, 17.3ms
+[2024-03-06 10:26] Speed: 3.9ms preprocess, 17.3ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+[2024-03-06 10:26] Detailer: segment upscale for ((166.37997, 213.48491)) | crop region (499, 640) x 1.600109238333593 -> (798, 1024)
+[2024-03-06 10:26] 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.53it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:12<00:00,  1.60it/s]
+[2024-03-06 10:26] Prompt executed in 41.29 seconds
